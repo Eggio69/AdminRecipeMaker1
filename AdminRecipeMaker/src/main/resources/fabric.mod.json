@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "adminrecipemaker",
+  "version": "${version}",
+  "name": "AdminRecipeMaker",
+  "description": "Server-side exact-component custom crafting recipes managed by operators.",
+  "authors": ["AdminRecipeMaker"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.adminrecipemaker.AdminRecipeMaker"]
+  },
+  "mixins": ["adminrecipemaker.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
